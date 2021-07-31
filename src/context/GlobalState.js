@@ -34,6 +34,7 @@ export const GlobalProvider = ({ children }) => {
       value={{
         transaction: state.transaction,
         deleteTransaction,
+        addTransaction,
       }}
     >
       {children}
